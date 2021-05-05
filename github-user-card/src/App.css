@@ -28,7 +28,7 @@ span {
   font-family: sans-serif;
   text-align: center;
   padding: 0 36px;
-  max-width: 665px;
+  max-width: 100%;
   margin: 0 auto;
   border: 1px solid rgb(210, 210, 210);
   border-radius: 4px;
@@ -39,4 +39,8 @@ span {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 1%;
+  padding: 2% 3%;
 }

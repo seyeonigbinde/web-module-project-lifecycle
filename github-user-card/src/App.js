@@ -46,13 +46,11 @@ class App extends React.Component{
            <p><b>Location:</b> {this.state.gitHubCard.location}</p>
            <p><b>No of Repositories:</b> {this.state.gitHubCard.public_repos}</p>
            <p><b>No of Followers:</b> {this.state.gitHubCard.followers}</p> 
-            </div>
-            <div> 
+            </div>      
+      </div>
+      <div className="header"> 
             <h1>The Followers of {this.state.profile2} </h1>
             <Followers followers={this.state.followers}/>  
-            </div>
-          
-           
       </div>
    
       </>
